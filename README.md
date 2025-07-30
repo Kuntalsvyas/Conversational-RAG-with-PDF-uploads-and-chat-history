@@ -36,15 +36,25 @@ source venv/bin/activate  # For Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Add your environment variables in a `.env` file
-# Example:
+Example:
 GROQ_API_KEY=your_groq_api_key
 
 # 5. Run the Streamlit app
 streamlit run app.py
 
-🧪 How It Works
+# 🧪 How It Works
 - Upload a PDF → Text is extracted and split into chunks.
 - Vectorization → FAISS indexes the chunks using embeddings.
 - Chat Input → Your query is compared to chunks for context.
 - RAG Pipeline → LLM generates a contextual response.
 - Chat History → Stored locally for that session.
+
+# 📌 Future Enhancements
+ - Add authentication (login system)
+ - Save history to cloud or DB
+ - Upload multiple PDFs and merge knowledge
+ - Add support for YouTube/video transcript ingestion
+
+# 🙌 Author
+Made with 💻 by Kuntal Vyas
+If you find this helpful, ⭐ the repo and share!
