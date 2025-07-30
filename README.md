@@ -40,7 +40,7 @@ This project implements a **Conversational Retrieval-Augmented Generation (RAG)*
 - pip install -r requirements.txt
 
 **4. Add your environment variables in a `.env` file**
--Example :- GROQ_API_KEY=your_groq_api_key
+- Example :- GROQ_API_KEY=your_groq_api_key
 
 
 **5. Run the Streamlit app**
